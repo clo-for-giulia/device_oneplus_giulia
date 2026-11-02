@@ -38,7 +38,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 
 # SEPolicy
-include hardware/oplus/sepolicy/common/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # Recovery
