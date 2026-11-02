@@ -36,6 +36,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    init.giulia.rc \
     init.haptics.rc
 
 # OnePlus Settings
