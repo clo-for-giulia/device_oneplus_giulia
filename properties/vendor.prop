@@ -16,5 +16,9 @@ ro.surface_flinger.set_touch_timer_ms=200
 ro.vendor.oplus.market.enname=OnePlus 13R
 ro.vendor.oplus.market.name=OnePlus 13R
 
+# Laminar
+debug.hwui.use_hint_manager=true
+debug.sf.enable_adpf_cpu_hint=true
+
 # USB
 vendor.usb.product_string=OnePlus 13R
