@@ -64,6 +64,7 @@ PRODUCT_PACKAGES += \
     KeyHandlerResTarget \
     OnePlusSettingsResTarget \
     OPlusFrameworksResTarget \
+    OPlusGameSpaceResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
