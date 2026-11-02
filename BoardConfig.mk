@@ -20,14 +20,6 @@ TARGET_OTA_ASSERT_DEVICE := OP5D3BL1
 # Display
 TARGET_SCREEN_DENSITY := 520
 
-# Kernel
-KERNEL_LTO := thin
-TARGET_KERNEL_ADDITIONAL_FLAGS += \
-    CONFIG_GIULIA_DTB=y \
-    CONFIG_GIULIAC_DTB=y \
-    KCFLAGS="-mtune=cortex-a720 -mllvm -inline-threshold=350" \
-    KLDFLAGS="-mllvm -polly -mllvm -polly-ast-use-context -mllvm -polly-invariant-load-hoisting -mllvm -polly-loopfusion-greedy -mllvm -polly-run-inliner -mllvm -polly-run-dce -mllvm -inline-threshold=350"
-
 # Power
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 

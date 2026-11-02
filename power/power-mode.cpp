@@ -2,7 +2,7 @@
  * SPDX-FileCopyrightText: 2024-2026 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  *
- * OnePlus 12 (giulia) power HAL mode extension, built into the QTI
+ * OnePlus 13R (giulia) power HAL mode extension, built into the QTI
  * power HAL through TARGET_POWERHAL_MODE_EXT.
  * Battery Saver (Mode::LOW_POWER) caps CPU and GPU max frequency, and game
  * loading screens (Mode::GAME_LOADING) get a short CPU boost. Both use perf
