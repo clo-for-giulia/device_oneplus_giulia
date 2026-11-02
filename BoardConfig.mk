@@ -25,6 +25,9 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += \
     CONFIG_GIULIA_DTB=y \
     CONFIG_GIULIAC_DTB=y
 
+# Power
+TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/properties/system_ext.prop
