@@ -192,7 +192,7 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
 
     <!-- Boolean indicating whether display white balance is supported. -->
-    <bool name="config_displayWhiteBalanceAvailable">true</bool>
+    <bool name="config_displayWhiteBalanceAvailable">false</bool>
 
     <!-- See AmbientSensor.AmbientColorTemperatureSensor.
          The ambient color temperature sensor name. -->
